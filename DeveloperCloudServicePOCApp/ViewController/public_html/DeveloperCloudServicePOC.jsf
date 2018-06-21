@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="DeveloperCloudServicePOC.jsf" id="d1">
+        <af:form id="f1">
+            <af:panelGroupLayout id="pgl1" layout="horizontal" valign="middle" halign="center">
+                <af:panelFormLayout id="pfl1" rows="2" maxColumns="1">
+                    <f:facet name="footer"/>
+                    <af:outputText value="Welcome to Developer Cloud Service" id="ot1"
+                                   inlineStyle="color:Red; font-size:xx-large;"/>
+                    <af:outputText value="This is version 1 check in" id="ot2"
+                                   inlineStyle="font-size:xx-large; color:Green;"/>
+                </af:panelFormLayout>
+            </af:panelGroupLayout>
+        </af:form>
+    </af:document>
+</f:view>
